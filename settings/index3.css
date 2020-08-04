@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #256CDA;
+    font-family: 'Raleway';
+}
+
+#container{
+    width: 80vw;
+    height: 80vh;
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+
+img{
+    height: 70vh;
+    position: absolute;
+    left: 60vw;
+    top: 10vh;
+}
+
+h4{
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.btn input[type="button"]{
+    width: 18.5vw;
+    height: 8vh;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 5px 15px 5px 20px;
+    text-transform: uppercase;
+    text-align: right;
+    background-color: white;
+}
+
+.btn input[type="button"]:hover{
+    width: 18vw;
+}
+
+.round{
+    position: absolute;
+    background-color: #256CDA;
+    width: 38px;
+    height: 38px;
+    border-radius: 60px;
+    top: 49.9vh;
+    left: 11vw;
+}
+.round::before{
+    content: url(./ios.png);
+    width: 50px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 7px;
+}
+
+.btn1 input[type="button"]{
+    width: 21vw;
+    height: 8vh;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 5px 15px 5px 0px;
+    text-transform: uppercase;
+    text-align: right;
+    background-color: white;
+}
+
+.btn1 input[type="button"]:hover{
+    width: 20.5vw;
+    padding: 4px 13px 4px 0px;
+}
+
+.round1{
+    position: absolute;
+    background-color: #256CDA;
+    width: 38px;
+    height: 38px;
+    border-radius: 60px;
+    top: 62.3vh;
+    left: 11vw;
+}
+.round1::before{
+    content: url(./Group.png);
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 12px;
+}

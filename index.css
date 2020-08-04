@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+    font-family: 'Raleway';
+}
+#edge{
+    position: absolute;
+    top: -30px;
+} 
+#edge img{
+    width: 18vw;
+    height: 25vh;
+}
+
+#links{
+    width: 65vw;
+    height: 20vh;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+nav ul{
+    margin-left: 150px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 50px;
+
+}
+
+nav ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+#hom{
+   border-bottom: 4px solid #256CDA;
+   width: 40px;
+   position: absolute;
+   top:9vh;
+   left: 44.5vw;
+}
+
+.home{
+    border-bottom: 3px solid #256CDA;
+    border-radius: 3px;
+}
+.home:hover{
+    border-bottom: 3px solid black;
+    border-radius: 3px;
+}
+nav ul li a:hover{
+    color: blue;
+    border-bottom: none;
+}
+
+button{
+    margin-left: 700px;
+    position: relative;
+    top: -30px;
+    border: none;
+    outline: none;
+    width: 160px;
+    height: 40px;
+    padding: 5px 0px 5px 30px;
+    border-radius: 20px;
+    font-size: 13px;
+    background-color: #256CDA;
+    color: white;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+button::before{
+    content: url(./settings.svg);
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+    top: 1.5vh;
+    left: 0.5vw;
+    text-align: center;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+#header{
+    margin-top: -20px;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 100px;
+    padding: 0 0 20px 20px;
+}
+
+ .right-pic {
+    position: absolute;
+    top: 15vh;
+    left: 68vw;
+ }
+
+#picture{
+    background-color: white;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.09);
+    width:230px;
+    height: 300px;
+    padding: 20px 15px 10px 15px;
+    border-radius: 5px;
+}
+
+#picture img{
+    width: 230px;
+    height: 180px;
+}
+
+.cactus{
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.cactus1{
+    color: #AEAEAE;
+    font-size: 17px;
+}
+
+.cactus2{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+#picture1{
+    background-color: white;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.09);
+    width:230px;
+    height: 300px;
+    padding: 20px 15px 10px 15px;
+    position: absolute;
+    top: 100px;
+    left: 115px;
+    border-radius: 5px;
+}
+
+.round{
+    position: absolute;
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    top: 37vh;
+    left: 14vw;
+}
+.round::after{
+    content: url(./heart.svg);
+    position: absolute;
+    display: block;
+    top: 14px;
+    left: 12px;
+}
+#picture1 img{
+    width: 230px;
+    height: 180px;
+}
+
+.purity{
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.purity1{
+    color: #AEAEAE;
+    font-size: 17px;
+}
+
+.purity2{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+#scroll{
+    border: 1px solid #256CDA;
+    height: 15vh;
+    width: 2vw;
+    margin-left: 49vw;
+    margin-top: 10vh;
+    border-radius: 15px;
+}
+
+#dot{
+    background: rgba(37, 108, 218, 0.73);
+    width: 1.1vw;
+    height: 2vh;
+    border-radius: 30px;
+    margin-left: 6px; 
+    margin-top: 20px;
+}
+

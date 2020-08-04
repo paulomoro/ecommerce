@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #256CDA;
+    font-family: 'raleway';
+}
+
+#container{
+    width: 40vw;
+    height: 100vh;
+    margin-left: 60vw;
+    background-color: white;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #256CDA;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+#container p{
+    color: #989898;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+
+form{
+    margin-left: 55px;
+    margin-top: 50px;
+}
+
+label{
+    display: block;
+    padding: 30px 0 30px 0;
+    
+}
+
+label input[type="text"]{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000000;
+    width: 30vw;
+    line-height: 30px;
+    font-weight: bolder;
+    color: #256CDA;
+}
+
+label input[type="button"]{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 15px;
+    width: 15vw;
+    height: 6vh;
+    line-height: 30px;
+    font-weight: bolder;
+    color: white;
+    background-color: #256CDA;
+    padding-left: 10px;
+}
+
+#round{
+    position: absolute;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+    top: 75vh;
+    left: 64.5vw;
+}
+#round::before{
+    content: url(./fly.png);
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 5px;
+}
+
+#pic{
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+}
+
+img{
+    width: 400px;
+}
+
+footer{
+    position: absolute;
+    top: 95vh;
+    margin-left: 15vh;
+}
+
+footer p{
+    display: inline;
+    padding-right: 150px;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+footer img{
+    width: 140px;
+    position: relative;
+    left: -27.8vw;
+    top: -3px;
+}
